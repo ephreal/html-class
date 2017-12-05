@@ -1,0 +1,18 @@
+Conventions for naming files
+ + File type/extensions
+	- All HTML files end with .html. Keep it consistient.
+	- All css files end with .css.
+	- All javascript files end with .js.
+	- All PHP files end with .php
+
+ + Default file names
+	- The default webpage should be index.html (Or index.php if it is php).
+		-Used to be default.html.
+	- Default stylesheet should be named main.css.
+
+ + File names
+	- Only use lowercase, alphanumeric file names. (a-z, 0-9).
+		- Use underscores or dashes for spaces.
+		- Really avoid spaces.
+	
+	

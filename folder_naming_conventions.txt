@@ -1,0 +1,5 @@
+Use lowercase alphanumeric names (a-z, 0-9).
+Avoid spaces, use underscores or dashes if you absolutely need a space.
+Use folders to group related material.
+	- ie) A folder named css for css sheets, a folder named js for javascript, etc.
+
