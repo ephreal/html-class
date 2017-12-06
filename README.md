@@ -2,4 +2,9 @@ This repo details anything that I do during my html class.
 
 This will have example of what to do, what not to do (Hopefully on purpose), and information related to getting started with html/css.
 
-Currently, this just has information related to file naming conventions and a readme. More information will be added as time goes on.
+Currently this has the following:
+	Basic HTML tags and how to use them
+	Tags with some attributes and an explanation of those attributes.
+
+
+If anyone reading through my information finds something out of place, misleading, or outright wrong, please let me know. I'd love to keep this up to date and accurate.
