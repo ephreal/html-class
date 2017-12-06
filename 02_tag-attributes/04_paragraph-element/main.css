@@ -1,0 +1,15 @@
+/*
+ * Declares a class "dark" for use in
+ * the 04_paragraph-element index.html.
+ *
+ */
+
+/*
+ * A class is declared starting with a .
+ *
+ */
+.dark {
+  background: #000;
+  font-size: 200px;
+  color: #FFF;
+}

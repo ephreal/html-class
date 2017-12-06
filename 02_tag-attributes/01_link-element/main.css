@@ -1,0 +1,11 @@
+/*
+ * I haven't covered any CSS yet.
+ * This simply makes a blue box
+ * 100px by 100px on the link
+ * element index.html page.
+ */
+div{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}

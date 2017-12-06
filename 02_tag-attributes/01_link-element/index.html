@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--
+    The link element goes in the <head> element.
+    According to MDN, the HTML <link> element
+    specifies a relationship between the current
+    document and an external source.
+    IE: Declaring what to use for your css
+    sheet, declaring a file full of js functons,
+    etc.
+
+    The link element has the following attributes:
+    as: Only active when rel="preload". specifies
+        content type.
+    charset: Obsolete tag. Do not use.
+    crossorigin: Indicate if CORS is to be used
+                 when fetching the linked resource
+    (CORS = Cross Origin Resource Sharing)
+    disabled: Non-standard. Do not use.
+    href: Specifies URL to resource
+    hreflang: Indicates language of linked resource.
+              Purely informational.
+    integrity: Contains an inline base64 encoded
+               hash of the linked resource. Allows
+               checking of file te ensure it has
+               not been tampered with.
+               Experimental tag.
+    media: Specifies what type of media the
+           resource applies to. ie: print, aural,
+           screen, etc. Must be a media query.
+    methods: <Moar reading needed to get this one>
+    prefetch: retrieves a resource in anticipation
+              of it being used next. Allows faster
+              response time.
+    referrerpolicy: Tells which referrer to use
+                    when fetching the Resource
+    rel: Names the relationship between the
+        resource and the current document. Most
+        commonly used to link stylesheets.
+        is: <link rel="stylesheet" href="css_file.css">
+    rev: Obsolete. Do not use.
+    sizes: Defines sizes of visual media icons in the
+           resource. Must be present if rel="icon".
+    target: Defines where the rendering of the linked
+            resource takes place. Usually the current
+            browser window.
+    title: Allows use of alternative stylesheets. May
+           stop the default stylesheet from functioning
+           if used incorrectly. See here for more details:
+           https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets
+    type: Defines the type of content linked to.
+          ie: text/html, text/css, etc.
+
+
+    See here for a more in depth explanation of
+    the attributes.
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+  -->
+  <link rel="stylesheet" href="main.css"> <!-- links stylesheet -->
+  <title>Document</title>
+</head>
+<body>
+  <!--
+      Note that in rendering this page, a blue
+      square appears on the page. That is due
+      to the linked stylesheet.
+  -->
+  <div></div>
+
+</body>
+</html>
