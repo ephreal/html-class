@@ -1,0 +1,14 @@
+1) Create an html file and a css file. Name the files with the standard naming conventions. Link the css file to the html file.
+2) Take the css file made in the previous exercise and put it in a folder. Name the folder according to the naming conventions. Ensure the html file is linked to it.
+3) Create exercise-page-1.html without looking through the code (Copy the html to your computer and open it in a browser. Try make it.)
+4) Create exercise-page-2.html
+5) Create exercise-page-3.html
+6) Add commens to the last document you made
+7) Identify which of the following are relative URLs and which are absolute URLs
+    a) www.google.com
+    b) ../pic/dog.jpg
+    c) /pic/dog.jpg
+    d) chapter07/index.html
+    e) /docs/pdf/floor-plan.pdf
+    f) /css/main.css
+    g) ../../css/main.css
