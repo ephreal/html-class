@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!--
+      Relative URLs tell the document where to
+      find something in relation to itself. A
+      relative URL does not start with a "/"
+      like an absolute URL because it is not
+      starting it's search from the root of
+      the website. It starts in the folder it
+      currently occupies.
+  -->
+  <!--
+      For example, to locate the dog.png which
+      is in the same folder as this document,
+      I simply put dog.png in the src attribute.
+      It searches in the folder the index.html
+      is in, finds the image labeled dog.png,
+      and then uses it.
+  -->
+  <img src="dog.png">
+
+  <!--
+      To find an image in the img folder, we
+      start the URL with "img/" and then the
+      name of the file. In this case,
+      "img/cat.jpeg". Once again, this searches
+      the current folder for a folder called
+      "img", goes into it, and searches for a
+      file named cat.jpeg
+  -->
+  <img src="img/cat.jpeg">
+
+  <!--
+      Note that having a separate folder for
+      images is a common thing to do. Leaving
+      a ton of images at the root of the folder,
+      while it may work, is messy and creates
+      trouble trying to find the things you
+      might be looking for.
+  -->
+</body>
+</html>
