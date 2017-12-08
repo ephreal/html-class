@@ -12,6 +12,15 @@
  * padding: <amount>px/em/%
  * margin: <amount> px/em/%
  *
+ * You can pass 1,2, or 4 values in for padding and margin. If
+ * you pass in one, then the value applies to all sides. If you
+ * pass in 2, the first applies to the top and bottom, and the
+ * second to the right and left. And if you pass in 4, they
+ * apply starting from the top and going clockwise, which is to
+ * say, top right bottom left.
+ *
+ * You can also pass in auto to make the margin sides equal.
+ *
  * See here for more detail.
  * https://developer.mozilla.org/en-US/docs/Web/CSS/padding
  * https://developer.mozilla.org/en-US/docs/Web/CSS/margin

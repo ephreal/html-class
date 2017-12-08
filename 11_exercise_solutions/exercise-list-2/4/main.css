@@ -1,0 +1,10 @@
+div {
+  height: 250;
+  width: 500;
+  border: 10px dashed blue;
+  margin: 10px, auto;
+}
+
+.second {
+  box-sizing: border-box;
+}

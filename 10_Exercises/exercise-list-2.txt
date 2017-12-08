@@ -1,0 +1,13 @@
+1) Place a div on a page. Format it to have a height, width, and background color.
+2) Take the code from the first one and round the corners of the div.
+3) Take the code from the second one and give the div a 20px grooved border
+4) Create a new HTML document. Place two divs on the HTML content and format them with:
+  a) Width 500px
+  b) Height 250px
+  c) A 10 px dashed blue border
+  d) A top and bottom margin of 10px, and a right and left margin that is automatically set.
+  e) Format the second div with the box-sizing: border-box property.
+5) Take the code from 3 and give the div a background image using the following css declarations.
+  a) background-image: url("path/to/some/image.jpg");
+  b) background-size: cover;
+  c) background-repeat: no-repeat;
