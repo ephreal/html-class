@@ -1,0 +1,81 @@
+/*
+ * The border property puts a border around the
+ * selected element. Here's an overview of some
+ * of it's attributes.
+ *
+ * shorthand:
+ * border: <size> <style> <color>;
+ *
+ * border-width: Declares the thickness of the
+ *               border.
+ * border-style: Declares the style of the
+ *               border.
+ * border-color: Declares the color of the
+ *               border.
+ * border-radius: Rounds out corners. Radius can
+ *                be in percent or pixels.
+ *
+ * See here for more info:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/border
+ *
+ */
+
+/* examples */
+
+div {
+  width: 200px;
+  height: 200px;
+  /* Shorthand declaration of a border, 1px
+   * thick, solid, and red.
+   */
+  border: 1px solid red;
+}
+
+/*
+ * Select a class that applies a little bit
+ * of rounding to the border. Uses pixel.
+ */
+.rounded {
+  border-radius: 30px;
+}
+
+/*
+ * Select all elements with a .cat1 class.
+ * Note that this time the elements are an
+ * img element.
+ * This is called a class selector.
+ *
+ */
+.cat1 {
+  /* longer declaration for the same as above */
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
+.cat2 {
+  /* Different border style */
+  border: 10px dashed red;
+}
+.cat3 {
+  /* Another border style */
+  border: 10px dotted red;
+}
+
+/*
+ * When making a circular border, take note of what
+ * element you are applying it to. If you want a
+ * circle, use a div element. If you're wanting an
+ * oval, use an img element. The class selector
+ * below is applied to both a div and a img element.
+ * You'll notice the difference when you render the
+ * page.
+ */
+
+/* Using % for radius */
+.roundCat {
+  border: 5 px solid red;
+  /* Make the border a circle */
+  border-radius: 200%;
+  background-image: url("cat.jpg")
+}

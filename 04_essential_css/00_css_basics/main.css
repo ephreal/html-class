@@ -1,0 +1,49 @@
+/*
+ * Comments in css are denoted with a /* and close
+ * with a * / (no space).
+ *
+ * To create a CSS ruleset, you choose your selector
+ * and start your declaration block by placing a {
+ * down. The declarations inside the block are
+ * property: value; pairs. Once finished with all
+ * declarations, you close the block with a }.
+ *
+ * Basic CSS properties to know:
+ * height: Defines the height in pixels the selected
+ *         element will be.
+ * width: Defines the width in pixels the selected
+ *        element will be.
+ * background: Define the backround color or image of
+ *             of the selected element.
+ *
+ * Read here for some additional information on how
+ * these are used:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/height
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/width
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/background
+ *
+ */
+
+ /* examples */
+
+/* Select all div elements */
+ div {
+   /* Set the height to be 100px */
+   height: 100px;
+   /* Set the width to be 100 px */
+   width: 100px;
+   /* Make the background color of the div green */
+   background: green;
+ }
+
+ /* The above code makes a green square, 100px x 100px */
+
+/* Select all elements with a cat1 class. Note the period. */
+.cat1 {
+  height: 200px;
+  width: 300px;
+  /* make the bckground a picture */
+  background: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Large_Siamese_cat_tosses_a_mouse.jpg");
+  /* Make the background 300 px wide, 200px high */
+  background-size: 300px 200px;
+}

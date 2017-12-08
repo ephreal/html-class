@@ -1,0 +1,65 @@
+/*
+ *
+ * The display property is used to control how
+ * the browser will render certain elements.
+ * This requires an understanding of what
+ * an inline display is, and what a block
+ * display in.
+ *
+ * Most elements have a default display style.
+ * For example, div elements are display: block
+ * by default. This means that it takes the
+ * entire line with as much height as necessary
+ * to render everything in it. This also means
+ * you can't display 2 div elements side by side
+ * without modifying the default display type.
+ *
+ * To contrast, img elements have an inline block
+ * display style by default. This means they'll
+ * take up as much space as necessary to show the
+ * image, but you can still show something right
+ * after it. IE: Putting one img element after
+ * another puts the second image directly to the
+ * right of the first.
+ *
+ * These can be modified by changing the display
+ * property. Some of the attributes follow.
+ *
+ * syntax:
+ * display: <style>
+ *
+ * block: Take up as much space as needed and force
+          a newline so anything coming after it will
+          display below in the containing element.
+ * inline: Take up as much space as needed without
+ *         forcing a newline. On elements without
+ *         anything in them, this can shorten the
+ *         element to nothing. See inline divs.
+ * inline-block: Create a block from the element,
+ *               but do not force a newline.
+ * none: Do not display the element.
+ *
+ */
+
+ /* examples */
+
+div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid darkblue;
+}
+
+ /* inline divs */
+.inline {
+  display: inline;
+}
+
+/* inline-block divs */
+.inline-block {
+  display: inline-block;
+}
+
+/* display: none */
+.none {
+  display: none;
+}
