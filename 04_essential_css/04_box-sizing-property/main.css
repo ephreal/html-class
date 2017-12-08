@@ -1,0 +1,48 @@
+/*
+ *
+ * Box-sizing changes the way padding and borders are
+ * applied. By default, the height and widht specified only
+ * apply to the content. In this case, when you add in padding
+ * or margin, the total amount of space will exceed the width
+ * and/or height you specified.
+ *
+ * Box-sizing: border-box changes how spacing is applied by
+ * keeping any padding/margin,borders within the height and
+ * width specified. This means that when you say height:200,
+ * the padding and margin will be constrained to that height.
+ *
+ * syntax:
+ * box-sizing: <style>;
+ *
+ * box-sizing: content-box: Default settings. Content is
+ *                          constrained to the height/width
+ *                          specified.
+ * box-sizing: border-box: Content + spacing is constrained
+ *                         to the height/width specified.
+ *
+ * See here for more information:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+ *
+ */
+
+/* examples */
+/* To illustrate problems, I'm going to define a parent class */
+ .parent {
+   height: 200px;
+   width: 200px;
+   box-sizing: border-box;
+   border: 2px solid red;
+ }
+
+ .childContentBox {
+   height: 196px;
+   width: 196px;
+   border: 10px solid blue;
+ }
+
+ .childBorderBox {
+   height: 196px;
+   width: 196px;
+   border: 10px solid blue;
+   box-sizing: border-box;
+ }

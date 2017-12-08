@@ -1,0 +1,53 @@
+/*
+ *
+ * Padding and margin adds whitespace inside and between elements.
+ * Padding and margin are easiest understood with having a
+ * border between the padding and the margin. Think of the
+ * html element as a box full of stuff. The thing you display is
+ * the content. The padding is stuff you put inside the box to
+ * keep it where you want it. The border is the box itself, and
+ * the margin is the space between other boxes.
+ *
+ * syntax:
+ * padding: <amount>px/em/%
+ * margin: <amount> px/em/%
+ *
+ * See here for more detail.
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+ *
+ */
+
+ /* examples */
+
+/* Make our img elements bordered to show padding/margin.
+   Also make them a bit smaller. */
+img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid red;
+}
+
+/* No padding OR margin */
+.noPadMarg {
+  padding: none;
+  margin: none;
+}
+
+/* 5px padding, no margin */
+.pad {
+  padding: 5px;
+  margin: none;
+}
+
+/* 5px margin, no padding */
+.mar {
+  padding: 0px;
+  margin: 5px;
+}
+
+/* 5px padding, 5px margin */
+.both {
+  padding: 5px;
+  margin: 5px;
+}
