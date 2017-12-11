@@ -1,0 +1,52 @@
+/*
+ * A CSS reset is CSS code added to a CSS stylesheet that will undo
+ * the default CSS styling added in by a browser. The reasoning for
+ * this is every browser applies different default vaules for the
+ * various html elements. For example, the h1 tag is only formatted
+ * large with spacing/margins/padding without having to write any
+ * CSS because a browser automatically assigns some CSS to it.
+ *
+ * Since browsers all display things ever so slightly different, there
+ * are CSS reset sheets that can be used to undo the default CSS. The
+ * thinking is that anyone visiting the website will receive the same
+ * browsing experience regardless of which browser they use.
+ *
+ * Due to how a CSS reset works, the stylesheet will be overwriting
+ * the selected elements several times. This has raised concerns
+ * about the efficiency of using a CSS reset. If you're going to be
+ * applying default values of none, which overwrites the browser
+ * defaults, and then applying a different value to that property,
+ * why do the reset at all?
+ *
+ * While the arguments for and against resetting default browser
+ * CSS properties is ongoing, I feel that resetting some of the
+ * properties to give a consistent layout is an easy way to ensure
+ * that browsers place things where and how you want them to be.
+ */
+
+ /* Example of a very very small browser reset. */
+
+/* Reset h1 to defaults */
+ h1 /*, h2, h3, etc... */{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  font-weight: normal;
+ }
+
+ /* Reset more things as needed... */
+
+ /* Now after reset, style things as needed */
+
+/* I'm not going to give values to
+   this for now. As it is right now,
+   the index.html shows how the reset
+   has affected the h1 tag.
+ h1 {
+  properties/values here
+ }
+*/
