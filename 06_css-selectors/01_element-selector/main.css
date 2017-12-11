@@ -1,0 +1,15 @@
+/*
+ * These notes will be brief as I've covered most of this in
+ * the esssential_css folder.
+ *
+ * The element selector changes every occurance of the element
+ * on the entire webpage. You select the element by putting
+ * the element name down followed by the ruleset.
+ */
+
+/* Select any p1 elements */
+p1 {
+  color: blue;
+  font-size: 200%;
+  background-color: black;
+}

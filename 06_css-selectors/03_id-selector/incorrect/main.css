@@ -1,0 +1,8 @@
+/*
+ * CSS file for an intentional mistake. There is an
+ * ID used twice on the html page.
+ */
+
+#oops {
+  border: 5px groove green;
+}

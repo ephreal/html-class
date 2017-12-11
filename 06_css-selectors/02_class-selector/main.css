@@ -1,0 +1,15 @@
+/*
+ * Class selectors are used to apply the same type of formatting
+ * to multiple different elements. This allows you to get one
+ * nice setup working and apply it in multiple places.
+ *
+ * You select a class by starting the class name with a "." in
+ * the css stylesheet.
+ */
+
+/* Example class selector */
+
+.dark {
+  background: black;
+  color: yellow;
+}

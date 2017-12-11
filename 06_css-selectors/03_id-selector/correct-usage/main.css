@@ -1,0 +1,13 @@
+/*
+ * The ID selector lets you modify an element by ID. You select
+ * the element by prefacing the id with a #. An important note
+ * about ID's: You should only ever use an ID once on the same
+ * page. The value is supposed to be unique per page.
+ */
+
+#important {
+  font-size: 200%;
+  border: 10px solid red;
+  background-color: black;
+  color: white;
+}
