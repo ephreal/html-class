@@ -8,6 +8,40 @@
  * property: value; pairs. Once finished with all
  * declarations, you close the block with a }.
  *
+ * There are several ways you can select something on
+ * the page. You can use an element selector, a class
+ * selector, a pseudo class selector, and an id selector.
+ *
+ * An element selector selects every element of that
+ * type on the page. For example, if you target the p
+ * element in the css stylesheet, every p element on
+ * the page is going to have the styling applied to it.
+ *
+ * A class selector is only applied to an element that
+ * is that class. You add an element to a class by
+ * using the class="class_name" html attribute. For
+ * example, I could create a p element that is class
+ * "thing" by doing <p class="thing"></p>. Now if I
+ * create some css that targets the thing class, it
+ * will only affect that p element. You target the
+ * class by using .classname in the css sheet. In
+ * this case, I would write .thing {properties:attributes}
+ * to change it.
+ *
+ * A pseudo class is something that provides the site
+ * a means to be interactive. For example, you can change
+ * what happens when you hover over an <a> element. You
+ * select the class by using the element:pseudo_class
+ * syntax.
+ *
+ * An ID element is similar to the class element. You
+ * declare and ID in the same fashion as a class, but
+ * selection is with a # instead of a . Let's say I
+ * create an element with an id of 10. To select the
+ * element with that ID, I would write #10 {}.
+ *
+ * I will have examples of class/id selectors later on.
+ *
  * Basic CSS properties to know:
  * height: Defines the height in pixels the selected
  *         element will be.
