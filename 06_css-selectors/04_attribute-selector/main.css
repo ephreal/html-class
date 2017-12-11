@@ -1,0 +1,12 @@
+/* The attribute selector allows you to select an element based
+ * upon the attributes the element is using. This allows you to
+ * make changes in how items are presented by changing everything
+ * of a similar type. In this example, I change anything with the
+ * contenteditable attribute declared.
+ */
+
+[contenteditable] {
+  border: 2px solid blue;
+  color: green;
+  background: black;
+}

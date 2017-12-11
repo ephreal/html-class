@@ -1,0 +1,10 @@
+/*
+ * The visited pseudo class refers to hyperlinks that the user
+ * has clicked on and visited once already. This lets the user
+ * know that they have already gone there once before and they
+ * don't need to try remember which links they have gone to.
+ */
+
+a:visited {
+  color: red;
+}

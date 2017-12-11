@@ -1,0 +1,11 @@
+/* Pseudo classes add interactivity to a website.
+ * The link class changes the color of the links
+ * on the site. You access the pseudo class by
+ * using the element:class. In this case, I'll
+ * be changing how the links look.
+ */
+
+/* Makes hyperlinks green */
+a:link {
+  color:green;
+}

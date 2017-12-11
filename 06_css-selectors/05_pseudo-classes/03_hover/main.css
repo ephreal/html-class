@@ -1,0 +1,8 @@
+/* The hover pseudo class allows things to happen when the mouse
+ * hovers over that item. In this case, I'm using it to change
+ * the color of all <a> elements when the mouse is over them.
+ */
+
+a:hover {
+  color: #66F;
+}

@@ -1,0 +1,10 @@
+/*
+ * The active pseudo class changes the color of what has
+ * last been clicked on. In this case, it's a <a> element.
+ * In this case, you'll see it for the brief moment after
+ * you click on it.
+ */
+
+ a:active {
+   color: #000;
+ }

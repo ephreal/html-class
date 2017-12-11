@@ -1,0 +1,27 @@
+/*
+ * The focus pseudo class does a similar job to the active class.
+ * While active is intended for use with <a> tags, the focus
+ * class is intended more for things like forms. Like the
+ * active pseudo class, this makes a change on the last thing
+ * activated by the user.
+ */
+
+/*
+ * Note I'm still going in the Link/Visited/Hover/Active order.
+ * In this case, the focus takes the active position.
+ */
+
+/* Makes the background color green when hovered over */
+[type=submit]:hover {
+  background-color: green;
+}
+
+/* Turns the background gray when clicked */
+[type=submit]:focus {
+  background-color: gray;
+}
+
+/* Give the input boxes some coloration when focused on */
+[type=test]:focus {
+  border: 4px solid orange;
+}
