@@ -1,0 +1,49 @@
+/*
+ * This document is to mainly show the usage of the
+ * display property to center an image.
+ *
+ * This takes advantage of margin: 0 auto; to set
+ * the element to have no margin on top or bottom,
+ * but to have the side margin automatically adjusted
+ * to change how the image is displayed.
+ *
+ * Don't worry if you don't get all of the css yet.
+ * Just keep reading on and things will become more
+ * clear. Most of this is covered in the css_selectors
+ * section.
+ */
+
+
+/*
+ * Show the html, body, and div elements.
+ * This is just to show how things arrange themselves
+ * by default and where things are.
+ */
+
+html {
+  border: 2px dashed blue;
+}
+
+body {
+  border: 2px solid black;
+}
+
+div {
+  border: 2px solid green;
+  height: 100px;
+}
+
+/*
+ * Modify the img display type so I don't need <br> tags
+ * Also making it a block display type allows the margin
+ * on the left and right to be adjusted
+ */
+
+img {
+  display: block;
+}
+
+/* Create a centered class to center the second image with. */
+.centered {
+  margin: 0 auto;
+}
