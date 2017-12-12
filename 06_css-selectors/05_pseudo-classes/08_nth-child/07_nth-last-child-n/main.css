@@ -1,0 +1,11 @@
+/*
+ * nth-last-child(n) lets you select the last child
+ * from the bottom by n. For example, nth-last-child(10)
+ * like I have here will select 091. This can be thought
+ * of as go to the bottom, come up 10, select this
+ * element.
+ */
+
+li:nth-last-child(10) {
+  background-color: blue;
+}

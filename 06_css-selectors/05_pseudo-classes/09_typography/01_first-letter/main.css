@@ -1,0 +1,12 @@
+/*
+ * First-letter pseudo-element allows you to target the first letter to appear
+ * inside the element. I may have to create a different folder for pseudo
+ * elements. The difference between the pseudo class and pseudo element
+ * selector is the double colon.
+ */
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 36px;
+    line-height: .5;
+}

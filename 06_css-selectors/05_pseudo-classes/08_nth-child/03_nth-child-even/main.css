@@ -1,0 +1,9 @@
+/*
+ * nth-child(even) selects every even instance of a particular
+ * element under a parent element. In this case, I'm using
+ * a list and highlighting numbers 2,4,6.
+ */
+
+ li:nth-child(even) {
+   background-color: yellow;
+ }

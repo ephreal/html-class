@@ -1,0 +1,9 @@
+/*
+ * Last-child is the reverse of first child. It'll select the
+ * last child of a parent of that element.
+ */
+
+li:last-child {
+  color:red;
+  background-color: black;
+}

@@ -1,0 +1,14 @@
+/* nth-child(an+b) lets you select the elements in a pattern.
+ * In the example below, this selects every third element
+ * of the list starting with number 2.
+ */
+
+li:nth-child(3n+2) {
+  background-color: blue;
+}
+
+/* Try changing the above css to make it select the following:
+ * 5,10,15,20,25...
+ * 3,12,21,30,39...
+ * 7,20,33,46,59...
+ */

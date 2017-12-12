@@ -1,0 +1,12 @@
+/*
+ * The first-child pseudo class lets you select the first
+ * child of that element's parent. This works for any
+ * instance of the element where it's the first-child
+ * of another element.
+ */
+
+/* Make the first child of any element have green text */
+
+li:first-child {
+  color: green;
+}

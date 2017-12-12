@@ -1,0 +1,19 @@
+/*
+ * This is a kinda fun one that creates striping down the page.
+ * You could use this for making text easier to read, easier to
+ * follow, etc.
+ */
+
+table, tr, td {
+  width: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+tr:nth-child(even) {
+  background-color: #666;
+}
+tr:nth-child(odd) {
+  background-color: #AAA;
+}

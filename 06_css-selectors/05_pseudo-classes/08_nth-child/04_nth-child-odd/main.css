@@ -1,0 +1,8 @@
+/*
+ * nth-child(odd) is the counterpart to nth-child(even).
+ * It selects the odd elements of a parent.
+ */
+
+li:nth-child(odd) {
+  background-color: yellow;
+}

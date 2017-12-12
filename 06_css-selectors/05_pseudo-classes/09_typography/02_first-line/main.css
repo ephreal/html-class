@@ -1,0 +1,13 @@
+/*
+ * The first-line pseudo element lets you select the first line
+ * to appear in the element. This will also dynamically change
+ * based on the size of the viewport. This means that different
+ * screen sizes will all have the first line formatting applied.
+ */
+
+/* Make first line a little bigger, bold it slightly, change color */
+p::first-line {
+  font-size: 110%;
+  color: blue;
+  font-weight: 500;
+}

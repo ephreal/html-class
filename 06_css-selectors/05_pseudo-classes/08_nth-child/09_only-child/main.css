@@ -1,0 +1,9 @@
+/*
+ * The only-child pseudo class lets you target an element that
+ * is the only child of it's parent element.
+ */
+
+article:only-child {
+  background-color: black;
+  color: white;
+}
