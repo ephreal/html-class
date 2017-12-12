@@ -1,0 +1,24 @@
+/*
+ * div p = any p tag that is within a div
+ * div > p = any p tag that is an immediate child of the div
+ * div ~ p = any p tag that is a sibling following a div
+ * div + p = any p tag that is an immediate sibling of a div
+ *
+ * These can be generalized to
+ * tag1 tag2
+ * tag1 > tag2
+ * tag1 ~ tag2
+ * tag1 + tag2
+ *
+ * This css sheet and html shows the div > p usage.
+ * This selects any p element if it is under a div, but not
+ * a child of any other element. In this case, it will
+ * select Number one, Nubmer two, Number four and Number six.
+ */
+
+ div > p {
+   font-size: 20px;
+   font-family: fantasy;
+   background-color: blue;
+   color: white;
+ }
