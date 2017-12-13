@@ -1,0 +1,9 @@
+.bright {
+  background-color: silver;
+  color: yellow;
+}
+
+[href] {
+  background-color: blue;
+  color: white;
+}

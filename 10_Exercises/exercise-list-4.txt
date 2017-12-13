@@ -1,0 +1,6 @@
+1) Write some CSS that has two rules applying to the same element. The first rule should use a class annd the second rule should use and ID. Calculate the CSS specificity of each rule to explain which rule won.
+  Note: look at this if you're not remembering how to calculate specificity: https://specificity.keegan.st/
+2) Write some CSS that has two rules applying to the same element. The first rule should use an element selector and the second rule should use an ID. Calculate the CSS specificity of each rule to explain which rule won.
+3) Write some CSS that has two rules applying to the same element. The first rule should use an element selector and the second rule should use a class. Calculate the CSS specificity of each rule to explain which rule won.
+4) Write some CSS that has two rules applying to the same element. The first rule should use an element selector and the second rule should use an attribute selector. Calculate the CSS specificity of each rule to explain which rule won.
+5) Write some CSS that has two rules applying to the same element. The first rule should use a class selector and the second rule should use an attribute. Calculate the CSS specificity of the rule. Explain which rule won and why.

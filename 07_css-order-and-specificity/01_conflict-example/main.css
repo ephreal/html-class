@@ -1,0 +1,15 @@
+h1 {
+  color: black;
+}
+
+#emph {
+  color: red;
+}
+
+.emphasize {
+  color: green;
+}
+
+.darkly {
+  color: darkblue;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <!--
+      CSS specicifity determines which css rule is applied by the
+      browser. This is interpreted by determining which rule is
+      the most specific. IE. a class is more specific than an element
+      and would have the rule applied. An ID is even more specific
+      than a class and would have priority over a class. If two rules
+      have the same specificity, then the last one used counts. This
+      is why despite this having two stylesheets linked, my css
+      changes still takes affect. To learn more about this, I recommend
+      reading through the following:
+
+      https://stuffandnonsense.co.uk/archives/css_specificity_wars.html
+      https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+      https://specificity.keegan.st/
+
+      Some examples follow
+  -->
+
+  <!-- Element with class and attribute both changing background color -->
+  <p>Note that the background color is green. An attribute tag for a
+     specific element is more specific than a class.</p>
+  <a href="https://google.com" class="dark">To Google and beyond!</a>
+
+  <!-- A div tag with a href attribute also being modified by a class. -->
+  <p>Note that the square is yellow. An attribute tag is just as
+     specific as a class, but the attribute ruleset was declared
+     second in the css.</p>
+  <div href="google.com" class="dark"></div>
+
+  <!-- A div tag with two classes applied, both changing colors.
+       The pink backround color is declared after the first -->
+  <p>Note that this one is pink. A class declared after another
+     class in the stylesheet takes precedence over the first one
+     declared. It does not matter which order the div class="class1
+     class2" is used either. All that matters is priority in the
+     stylesheet.</p>
+  <div class="dark cake"></div>
+
+  <!-- A div tag with an ID and an href attribute -->
+  <p>Note that this one is light green. The id is far more specific
+     than an attribute</p>
+
+  <div id="lightforest" href="https://google.com"></div>
+
+  <!-- Note that if something is not overwritten, only the changes the
+       higher specificity makes will be applied.  -->
+  <h1 class="dark">Note that I am still bordered despite having the
+                   text color and background color overwritten.</h1>
+
+
+
+
+</body>
+</html>

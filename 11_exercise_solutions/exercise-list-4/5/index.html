@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Using an anchor element -->
+  <a href="https://google.com" class="bright">Find out anything!</a>
+
+  <!--
+      Explanation:
+      Both CSS styles evaluate to a specificity value of 10.
+      In this case, it's order, not size, that matters. The
+      href attribute was declared AFTER the bright class.
+      Since it was declared after the bright class, the style
+      for the bright class was applied first, and then
+      overwritten by the href attribute selector. This leaves
+      us with the attribute selector style.
+  -->
+
+</body>
+</html>

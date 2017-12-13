@@ -1,0 +1,9 @@
+.dark {
+  background-color: yellow;
+  text-decoration: none;
+}
+
+#unnecessary {
+  text-decoration: line-through;
+  background-color: blue;
+}

@@ -1,0 +1,45 @@
+/* See index.html for main notes */
+
+/* Add classes */
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.cake {
+  background-color: pink;
+  color: blue;
+}
+
+/* Modify attributes */
+/* Change any element with a href attribute */
+[href] {
+  background-color: yellow;
+  color: blue;
+}
+
+/* Change any <a> with an href in it. */
+a[href] {
+  background-color: green;
+  color: darkblue;
+}
+
+/* Modify elements */
+h1 {
+  border: 5px solid green;
+  font-size: 20px;
+  color: red;
+  background-color: yellow;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+/* Modify IDs */
+
+#lightforest {
+  background-color: lightgreen;
+}
