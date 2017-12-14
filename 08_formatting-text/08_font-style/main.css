@@ -1,0 +1,10 @@
+/*
+ * font-style is used to italicise text. This allows us to
+ * handle another part of font styling through css rather
+ * than through html.
+ */
+
+h1 {
+  font-style: oblique;
+  font-size: 5rem;
+}

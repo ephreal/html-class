@@ -1,0 +1,9 @@
+/*
+ * letter-spacing changes the kerning, which is the spacing between
+ * letters. This can take the values of normal or a css length data
+ * type (like rem, px, em, etc).
+ */
+
+.python {
+  letter-spacing: 1.2rem;
+}

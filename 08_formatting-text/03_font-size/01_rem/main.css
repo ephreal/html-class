@@ -1,0 +1,14 @@
+/*
+ * rem = root M
+ * Comes from the days of old ink presses that had to measure the
+ * size of fonts somehow. They did this off the size of the letter
+ * M.
+ * The root is the browser's default settings. Using rem allows
+ * for dynamic scaling based on user preferences. Rem scales the
+ * text sized based off the root font size.
+ */
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+}

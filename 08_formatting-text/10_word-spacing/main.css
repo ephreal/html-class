@@ -1,0 +1,9 @@
+/*
+ * word-spacing does exatly what you'd expect. It changes
+ * the spacing between words. It can accept normal, a
+ * percentage, or a length type (like rem, em, px, etc).
+ */
+
+p {
+  word-spacing: 10rem;
+}

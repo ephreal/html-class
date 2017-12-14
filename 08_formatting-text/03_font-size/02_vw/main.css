@@ -1,0 +1,13 @@
+/*
+ * vw = viewport width
+ *
+ * There are 100 arbitrary units going across the screen.
+ * The vw CSS selector uses this to dynamically scale the
+ * font as needed. In the example below, this instructs
+ * the browser to use 4 of the units for the font size.
+ */
+
+ h1 {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 4vw;
+ }

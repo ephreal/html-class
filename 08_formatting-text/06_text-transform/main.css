@@ -1,0 +1,11 @@
+/*
+ * text-transform applies additional changes to text.
+ * These changes mostly deal with changing what case
+ * the font is in. ie) Capitalizing everything, making
+ * everything lowercase, etc.
+ */
+
+h2 {
+  color: blue;
+  text-transform: uppercase;
+}

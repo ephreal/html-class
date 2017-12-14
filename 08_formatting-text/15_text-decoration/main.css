@@ -1,0 +1,16 @@
+/*
+ * Text-decoration, while claiming to be able to do more, is
+ * currently only able to change lines going below, through, or
+ * above text. This can be used to underline (or remove underlines
+ * from) text, strikethrough text, and put bars above text.
+ *
+ * Removing underlines is mostly used on anchor tags.
+ */
+
+p {
+  text-decoration: overline;
+}
+
+a {
+  text-decoration: none;
+}

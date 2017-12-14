@@ -1,0 +1,9 @@
+/*
+ * Text indent specifies the amount of white space that should be left
+ * before the start of a new text block. Note that by default this
+ * is only for the first line of text.
+ */
+
+p {
+  text-indent: 1rem;
+}

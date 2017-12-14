@@ -1,0 +1,28 @@
+/*
+ * Google fonts can be used to make your life and the user's
+ * life far easier. Rather than trying to create a custom
+ * font, using google fonts allows you to stylize your
+ * fonts without more work.
+ *
+ * To find some, just google google-fonts. It was located
+ * here at the time of this writing:
+ * https://google.com/fonts
+ *
+ * Do note that additional fonts are downloaded to the
+ * client's machine, so super slow connections may be
+ * affected.
+ *
+ * Adding in the font is pretty straightforward. Google will
+ * provide a link to add to your <head> section that links
+ * to the font. Go check the index.html to see this. Remember
+ * that the order of linking does make a difference, so link
+ * the fonts before your stylesheet.
+ *
+ * You then choose the font like you always would with the
+ * font-family.
+ */
+
+p {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+}

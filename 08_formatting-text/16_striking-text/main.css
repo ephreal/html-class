@@ -1,0 +1,11 @@
+/*
+ * Striking through text can be achieved through the
+ * text-decoration line-through property. While there
+ * are html tags that can achieve the same effect,
+ * one is deprecated, and the other is supposed to
+ * indicate that data has been deleted.
+ */
+
+ .strike {
+   text-decoration: line-through;
+ }

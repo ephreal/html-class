@@ -1,0 +1,15 @@
+/*
+ * font-weight is used to create bolder or lighter text
+ */
+
+p {
+  font-family: sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}

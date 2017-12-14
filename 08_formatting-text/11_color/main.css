@@ -1,0 +1,27 @@
+/*
+ * color changes the color of the font. Nothing else. It's
+ * not for background coloration, does not change the color
+ * of something else on the page, nothing. Just font color.
+ * It's easiest to get a grip on that from the start.
+ *
+ * Color can accept values for rgba, rgb, hexadecimal, and hsla.
+ * It can also accept a color name such as blue or moccasin.
+ * The a in rgba and hsla is the opacity, which is either a
+ * percentage or number from 0.0 to 1.0.
+ * Each is used as follows:
+ *
+ * RGB : rbg(1-255, 1-255, 1-255)
+ * rgba : rgba(1-255, 1-255, 1-255, 0.0-1.0)
+ * hsl : hsl(1-360, 0-100%, 0-100%)
+ * hsla : hsla(1-360, 0-100%, 0-100%, 0-100%)
+ *
+ * See the following for more detail:
+ *
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+ */
+
+/* Note: I'm changing the background color too for readability */
+p {
+  color: lightgoldenrodyellow;
+  background-color: black;
+}

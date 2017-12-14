@@ -1,0 +1,23 @@
+/*
+ * text-shadow adds a shadow to the text of an element. Text-shadow
+ * acceps a separated list: x y blur-radius and color.
+ * The x/y can be any length measurement, like px, rem, etc.
+ * Positive X values move right, negative left. Positive Y
+ * values move down, negative move up. The blur radius changes
+ * how defined the shadow is, negative values are discounted. A
+ * large blur radius can be used to provide color behind the text,
+ * Large being a value of 250px or so. Color is self explanatory.
+ */
+
+
+h1 {
+  color: blue;
+  font-size: 10rem;
+  text-shadow: .75rem .5rem 2px red;
+  text-align: center;
+}
+
+.super_blur {
+  color: darkred;
+  text-shadow:.75rem .5rem 250px black;
+}

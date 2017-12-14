@@ -1,0 +1,9 @@
+/*
+ * line-height gives spacing between lines. That's it.
+ * See here for more info:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+ */
+
+.larger_spacing {
+  line-height: 5rem
+}

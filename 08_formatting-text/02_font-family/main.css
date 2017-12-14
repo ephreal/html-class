@@ -1,0 +1,10 @@
+/*
+ * font-family specifies a list of one or more font family
+ * names and/or generic family names for the selected element.
+ * This lets you change the font, change how the font is
+ * rendered, etc.
+ */
+
+p {
+  font-family: monospace;
+}

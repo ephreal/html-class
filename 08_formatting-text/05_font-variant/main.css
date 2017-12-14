@@ -1,0 +1,10 @@
+/*
+ * font-variant lets you change how fonts are
+ * displayed. You can display as small caps,
+ * unicase, etc. Go here to see more options:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
+ */
+
+.death {
+  font-variant: small-caps;
+}

@@ -1,0 +1,19 @@
+/*
+ * Text-align describes how inline content like text
+ * is aligned in it's parent block element. Text-align
+ * does not control the alignment of block elements,
+ * only the inline content inside them. This could
+ * be text, but it could also be images, etc.
+ */
+
+div {
+  width: 90%;
+  height: 3rem;
+  text-align: center;
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+
+p {
+  box-sizing: border-box;
+}
