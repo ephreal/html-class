@@ -3,8 +3,21 @@
  * names and/or generic family names for the selected element.
  * This lets you change the font, change how the font is
  * rendered, etc.
+ *
+ * When choosing a font family, you need to include one non
+ * specific font, such as monospace,serif, sans-serif, etc.
+ * Otherwise the font will have no default value. The default
+ * value is used to select a fallback font if the main font
+ * is not installed on the computer.
+ *
+ * Sans-serif fonts are claimed to be more readable in web
+ * browsers, and using sans-serif fonts is recommended.
+ *
+ * See here for more info:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
  */
 
+/* Use Helvetica, if helvetica can't be found, use a monospace font */
 p {
-  font-family: monospace;
+  font-family: Helvetica monospace;
 }
