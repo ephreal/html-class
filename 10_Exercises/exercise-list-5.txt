@@ -1,0 +1,9 @@
+1) Use a generic serif font in an html document.
+2) Use a generic sans-serif font in an html document.
+3) Use a font from google-fonts that has different font weights. Use the different weights.
+4) Using CSS, transform all the text of a sentence to uppercase and italic.
+5) Set the spacing between characters in a short phrase.
+6) Add a shadow to the h1 tag.
+7) Remove the underline on an anchor tag.
+8) Show some text is no longer relevant by putting a line through it.
+9) Indent the first line of a paragraph.
