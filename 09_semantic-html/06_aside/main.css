@@ -1,0 +1,27 @@
+body {
+  background-color: #98AFC7; /*blue-gray*/
+}
+
+main {
+  display: inline-block;
+}
+
+article {
+  max-width: 75%;
+  float: left;
+}
+
+aside {
+  max-width: 20%;
+  float: right;
+}
+
+img {
+  /* Note that this width is relative to the aside
+     max width, not the width of the screen */
+  max-width: 100%;
+}
+
+p {
+  text-indent: 2rem;
+}

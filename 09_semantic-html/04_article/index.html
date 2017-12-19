@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <!--
+      An <article> element is some information that is self contianed. To
+      use a newspaper example, an article can be cut out, nailed to a door,
+      an people walking by would have the full story. The <article> tag is
+      not a link to an article, that's an anchor tag. That anchor tag to an
+      article could be contained in a <section> tag, discussed next. There
+      is not much change from the last page to this, I merely included the
+      article tag where it would make sense, just under the <main> tag.
+      See here for more info:
+      https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+  -->
+
+  <header>
+    <aside class="content-left">Some content<br>Cool logo</aside>
+    <h1 class="center">My amazing website</h1>
+    <aside class="content-right">Some content<br>awesome logo</aside>
+    <div></div><!-- using a div as a spacer. Probably not the best way to do this -->
+    <p class="center">Imagine a list of navigational links here</p>
+  </header>
+
+  <!-- Now a nav bar on the side -->
+  <nav>
+    <p>Some links</p>
+    <!--
+        Note the order here: ul > a > li. I really don't know if this is
+        how things are supposed to be, but it works for getting a clickable
+        area that lights up when you hover over it.
+    -->
+    <ul>
+      <a href="https://google.com"><li>Google</li></a>
+      <a href="https://mylife.needs.management"><li>My website</li></a>
+      <a href="https://facebook.com"><li>Facebook</li></a>
+      <a href="https://developer.mozilla.org"><li>Mozilla Developer Network</li></a>
+      <a href="https://twitter.com"><li>Twitter</li></a>
+    </ul>
+  </nav>
+
+  <!--
+      Note that with things as they are right now, the page breaks easily when
+      the size of the viewport changes. I'm not going to fix this right now.
+      Maybe never. I'll likely have future pages that show how one would fix
+      this. For now, this is an example of why display matters, why using float
+      can be hard, and general "what not to do-iness". Don't use this in
+      production as I know this could be better.
+  -->
+  <main>
+    <article>
+      <h1>They said Lorem Ipsum!</h1>
+      <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic nisi doloremque architecto veritatis consequuntur veniam quisquam totam, omnis libero porro nam obcaecati quibusdam vitae tenetur nobis autem labore mollitia!</span>
+      <span>Doloribus unde ullam minus natus sequi maxime ut rem perferendis aliquam sunt illum, esse delectus assumenda magni adipisci, quia autem. Necessitatibus recusandae veniam rerum et a amet quod similique, aperiam!</span>
+      <span>Eaque expedita fuga architecto commodi. In, corrupti similique est autem, voluptates explicabo facilis culpa facere praesentium numquam reiciendis, quibusdam tenetur totam veritatis dolor consectetur dignissimos officiis, illum unde! Voluptate, ratione!</span></p>
+    </article>
+  </main>
+</body>
+</html>

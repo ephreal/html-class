@@ -1,0 +1,28 @@
+header {
+  background-color: #252525;
+  color: green;
+  border: 3px solid blue;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.content-left {
+  float: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-right {
+  float: right;
+}

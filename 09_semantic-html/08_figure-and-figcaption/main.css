@@ -1,0 +1,13 @@
+figure {
+  border: 2px solid blue;
+}
+
+figcaption {
+  border: 2px solid green;
+  max-width: 100%;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}

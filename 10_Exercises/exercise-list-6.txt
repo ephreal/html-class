@@ -1,0 +1,2 @@
+1) Go to nytimes.com and look at the page layout. Mark out what you believe the content is being held in. Check it to see if you're right. Note that you will sometimes need to go up several levels to find the parent element, nor is semantic HTML used in all cases.
+2) 
