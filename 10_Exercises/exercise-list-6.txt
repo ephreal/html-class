@@ -1,2 +1,4 @@
 1) Go to nytimes.com and look at the page layout. Mark out what you believe the content is being held in. Check it to see if you're right. Note that you will sometimes need to go up several levels to find the parent element, nor is semantic HTML used in all cases.
-2) 
+2) Look at this picture: https://learn.shayhowe.com/assets/images/courses/html-css/getting-to-know-html/building-structure.png. Create just the HTML structure for this. Don't do the CSS.
+3) Look at this picture: http://tutorials.jenkov.com/images/html5/semantic-elements.png. Create the HTML structure necessary to make the page. Don't do the CSS.
+4) Look at this picture: https://assets.hongkiat.com/uploads/html-5-semantics/document-outline-example.jpg. Create the HTML structure necesary to make the page. Don't do the CSS.
