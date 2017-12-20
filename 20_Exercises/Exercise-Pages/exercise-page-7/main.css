@@ -1,0 +1,14 @@
+nav, main {
+  border: 1px solid red;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+nav {
+  vertical-align: top;
+  width: 20%;
+}
+
+main {
+  width: 70%;
+}

@@ -1,0 +1,41 @@
+nav, main {
+  /* Set a border to see sizes of objects */
+  border: 1px solid red;
+  /* We need inline block so these are arranged horizontally */
+  display: inline-block;
+  /* Don't let the elements extend past the border */
+  box-sizing: border-box;
+}
+
+nav {
+  /* Place the nav to the top of it's available position */
+  vertical-align: top;
+  /* Make it small-ish */
+  width: 20%;
+}
+
+main {
+  /*
+     Shrink main to contain the p element.
+     Note that the total width for nav + main < 100%.
+     Toy with this to figure out why.
+  */
+  width: 70%;
+}
+
+
+/*
+  Now that you toyed with the width there, go and remove all newlines
+  and spaces on the html from between the <nav> and <main> elements.
+  So it should look like this:
+  ......
+  </nav><main>
+  .........
+  ........
+  </main>
+
+  Now that you have the html like that, make the total of nav width +
+  main width = 100%. Open the page.... weird that it still displays
+  as though it was how I originally had it. Some really weird html
+  thing to be aware of.
+*/
