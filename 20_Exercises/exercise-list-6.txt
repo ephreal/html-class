@@ -2,3 +2,4 @@
 2) Look at this picture: https://learn.shayhowe.com/assets/images/courses/html-css/getting-to-know-html/building-structure.png. Create just the HTML structure for this. Don't do the CSS.
 3) Look at this picture: http://tutorials.jenkov.com/images/html5/semantic-elements.png. Create the HTML structure necessary to make the page. Don't do the CSS.
 4) Look at this picture: https://assets.hongkiat.com/uploads/html-5-semantics/document-outline-example.jpg. Create the HTML structure necesary to make the page. Don't do the CSS.
+5) Create exercise-page-5.html. If you are not using emmet, I highly recommend it as it will help automate creating the hundreds of div containers.

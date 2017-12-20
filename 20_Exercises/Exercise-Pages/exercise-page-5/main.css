@@ -1,0 +1,23 @@
+div {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 12rem;
+  height: 4rem;
+}
+
+.color1 {
+  background-color: cyan;
+}
+
+.color2 {
+  background-color: yellow;
+}
+
+.color3 {
+  background-color: magenta;
+}
+
+.color4 {
+  background-color: black;
+}
