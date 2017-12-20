@@ -1,0 +1,58 @@
+/*
+  I'm calling this good enough here for the moment.
+  You'll notice some weirdness with the links, how
+  things are lighting up, etc. For now, this accomplishes
+  what is needed here. That's not to say it's pretty,
+  just that it's good enough for this exercise.
+*/
+
+body {
+  /* White backgrounds annoy me... what can I say? */
+  background-color: darkred;
+}
+
+nav {
+  /* center the text to the middle of the nav bar */
+  text-align: center;
+}
+
+ul {
+  /* Change background of <ul> to make navbar apparent */
+  background-color: gray;
+  /* Get rid of space allocated for dots/list numbers */
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  /* Make the display inline block for horizontal displaying */
+  display: inline-block;
+  /* Remove the dot from the front of the list elements */
+  list-style: none;
+  /* Set sizes to make "buttons" apparent */
+  width: 7rem;
+  height: 5rem;
+  /* Contain li elements to their called out height/width */
+  box-sizing: border-box;
+
+}
+
+/* Make a color change when hovering over a li element */
+li:hover {
+  background-color: silver;
+}
+
+/* Change the color of the anchor text when hovering over the li */
+li:hover>a {
+  color: #252525;
+}
+
+a {
+  box-sizing: border-box;
+  /* Remove the underline from the hyperlinks */
+  text-decoration: none;
+  /* Change the display property to make the anchor have a wider "click" area */
+  display: block;
+  /* Push out the padding size to increase the click area */
+  padding: 2rem;
+}
