@@ -1,0 +1,24 @@
+/*
+  To create a flex container, one simply calls out display: flex
+  for the css display property. To see this, look at the main-header
+  class. I have the default flex properties that display: flex
+  applies once display: flex has been declared commented out.
+*/
+
+.main-header {
+  display: flex;
+  /*Default properties
+
+  flex-direction: row;
+  flex-wrap: nowrap;*/
+
+  /* See 05_justify-content for more detail */
+  justify-content: space-around;
+}
+
+div {
+  height: 10rem;
+  width: 10rem;
+  background-color: yellow;
+  border: 3px solid blue;
+}

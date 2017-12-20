@@ -1,0 +1,16 @@
+.flex_content {
+  display: flex;
+  justify-content: space-between;
+  /* Isn't that so nicely arranged? And so easily? */
+}
+
+div {
+  /* Note that I at no point use display: inline-block */
+  height: 5rem;
+  width: 5rem;
+  background-color: blue;
+}
+
+section {
+  border: 2px solid red;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <!--
+      Flexbox is an additional tool to create a page layout. Flexbox
+      requires understaning two concepts: Containers and Items.
+
+      A Flex container is some continer on the page that is set to
+      display: flex; in the css stylesheet. This could be an id, a
+      class, an element, etc.
+
+      When a container is set to be a flex container, you can manage
+      the layout with the properties shown later on. Anything that is
+      a direct child of the flex container is considered a flex item.
+
+      In summary, you create a flex container in order to manipulate
+      flex items through flex css properties. Examples follow.
+
+      For more information on flexbox, look here:
+      http://flexboxfroggy.com/
+      https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  -->
+
+  <main class="flex_content">
+    <!-- direct child divs are affected -->
+    <div></div>
+    <div></div>
+    <section>
+      <!--
+           The div inside the section is not a flex item.
+           It is not a direct child. This does NOT mean
+           flex is going to ignore. Rather, anything done
+           with flex affects the section containing the div.
+     -->
+      <div></div>
+    </section>
+    <div></div>
+  </main>
+
+</body>
+</html>

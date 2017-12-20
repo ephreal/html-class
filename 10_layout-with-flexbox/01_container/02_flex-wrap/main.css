@@ -1,0 +1,34 @@
+/*
+  By default, flex tries to fit everything onto one line. Sometimes,
+  this is not what you want. To allow items to wrap around onto
+  another line if the current line is full, use flex-wrap.
+
+  flex-wrap: nowrap is the default setting.
+
+  flex-wrap can take three values: wrap, nowrap, wrap-reverse.
+  Of the three, wrap-reverse might bear a little more mentioning.
+  flex-wrap: wrap-reverse; will wrap items onto the top of the
+  previous items when it runs out of space. While wrap acts like
+  you have inserted a newline below the original content,
+  wrap-reverse acts like you put the original content below the
+  the content after it. Play around with the css here and see for
+  yourself.
+*/
+
+
+/* Note that the div is just CSS formatted as normal */
+div {
+  height: 10rem;
+  width: 10rem;
+  background-color: gray;
+  border: 2px solid red;
+  text-align: center;
+  margin: 1rem;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+  /*flex-wrap: nowrap;*/
+}
