@@ -1,0 +1,18 @@
+/* Create a flex container out of body */
+body {
+  background-color: #252525;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  /* bring the items closer together */
+  align-content: flex-start;
+}
+
+/* add a little div formatting for fun */
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+}

@@ -1,0 +1,20 @@
+/* Create a flex container out of body */
+body {
+  background-color: #252525;
+  display: flex;
+  /* Move the content around a little differently */
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+/* add a little div formatting for fun */
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 100px;
+  flex: 2 2 auto;
+}

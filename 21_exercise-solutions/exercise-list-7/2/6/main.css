@@ -1,0 +1,21 @@
+/* Create a flex container out of body */
+body {
+  background-color: #252525;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-content: flex-start;
+}
+
+/* add a little div formatting for fun */
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 100px;
+  flex-grow: 2;
+  /* Allow the div to shrink as well */
+  flex-shrink: 2;
+}

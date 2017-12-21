@@ -1,0 +1,3 @@
+1) Play flexbox froggy. Make it through completely. http://flexboxfroggy.com/
+2) Create 8 pages that rearrange the code in exercise-page-8.html by changing the properties of the flex container.
+3) Create 6 pages with each one demonstrating one property that can be set on a flex item.

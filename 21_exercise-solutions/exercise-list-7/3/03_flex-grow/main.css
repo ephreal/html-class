@@ -1,0 +1,33 @@
+/* Turn the body into a flexbox */
+body {
+  background-color: #252525;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 100px;
+}
+
+/* Set all grow classes to grow differently */
+.grow1 {
+  flex-grow: 1;
+}
+
+.grow2 {
+  flex-grow: 2;
+}
+
+.grow3 {
+  flex-grow: 3;
+}
+
+.grow4 {
+  flex-grow: 4;
+}

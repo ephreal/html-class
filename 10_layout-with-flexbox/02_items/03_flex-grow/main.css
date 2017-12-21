@@ -1,0 +1,33 @@
+/*
+  Flex-grow defines the ability for a flex item to grow and fill
+  up more space as the viewing size increases. The value can be
+  any integer, but a negative value gives the same result as a 0.
+  The larger the value in comparison to other flex-grow values,
+  the faster that item is going to increase in size.
+
+  In the example below, the size on the flex1 class is 1, and on
+  the flex2 class is 2. This allows the item with the flex2 class
+  to take up half the space with the other two items only taking
+  up 25% each.
+*/
+
+div {
+  margin: 1rem;
+  background-color: purple;
+  border: 2px solid darkred;
+  height: 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: #706014;
+}
+
+.flex1 {
+  flex-grow: 1;
+}
+
+.flex2 {
+  flex-grow: 2;
+}

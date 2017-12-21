@@ -1,0 +1,31 @@
+/*
+  Justify-content defines the alignment along the primary axis.
+  This allows easy manipulation of where the various flex items
+  are located inside the flex container. Justify-content accepts
+  five different values: flex-start, flex-end, center,
+  space-around, and space-between. Flex-start is the default.
+
+  See below for an example.
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: red;
+  margin: 1rem;
+  text-align: center;
+}
+
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  /* Put the contents into the center of the container */
+  justify-content: center;
+  /* Put the contents to the end of the container */
+  /*justify-content: flex-end;*/
+  /* Put the content spaced in differing ways throughout the container*/
+  /*justify-content: space-around;*/
+  /*justify-content: space-between;*/
+}

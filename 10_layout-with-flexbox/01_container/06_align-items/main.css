@@ -1,0 +1,34 @@
+/*
+  Align-items allows modifications to the flex item's position
+  on the cross axis. This can be useful for centering items
+  in the container, having text be on the bottom of the
+  container, etc.
+
+  Align items can accept the following: flex-start, flex-end,
+  center, stretch, and baseline. Note that align-items: stretch
+  does not work on items that have a defined height.
+
+  Remember: Cross axis is perpendicular to the flex-direction.
+  If you have flex-direction: row; then you will be modifying
+  the item's vertical alignment with align-items.
+
+  See below for an example.
+*/
+
+div {
+  text-align: center;
+  background-color: gray;
+  border: 2px solid red;
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  display: flex;
+  /*flex-direction: column;*/
+  /*align-items: flex-start;*/
+  align-items: center;
+  /*align-items: stretch;*/
+  /*align-items: baseline;*/
+  /*align-items: flex-end;*/
+}

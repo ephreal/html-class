@@ -1,0 +1,15 @@
+/* Create a flex container out of body */
+body {
+  background-color: #252525;
+  display: flex;
+  /* We're actually done here... this already rearranges things */
+}
+
+/* add a little div formatting for fun */
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+}

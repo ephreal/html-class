@@ -1,0 +1,26 @@
+/*
+  Align-self allows manipulation of a single item in the flex container.
+  You will have to have some method of selecting the item in css, for
+  example, that item has a class or id you can select by. Align-self
+  accepts the same values as align-items. Like align-items, align-self
+  also works on the cross-axis.
+*/
+
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  border: 2px solid red;
+  margin: 1rem;
+}
+
+body {
+  display: flex;
+}
+
+.weirdo {
+  /*align-self: flex-end;*/
+  /*align-self: stretch;*/
+  align-self: center;
+}

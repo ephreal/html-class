@@ -7,12 +7,8 @@
 
   flex-wrap can take three values: wrap, nowrap, wrap-reverse.
   Of the three, wrap-reverse might bear a little more mentioning.
-  flex-wrap: wrap-reverse; will wrap items onto the top of the
-  previous items when it runs out of space. While wrap acts like
-  you have inserted a newline below the original content,
-  wrap-reverse acts like you put the original content below the
-  the content after it. Play around with the css here and see for
-  yourself.
+  flex-wrap: wrap-reverse; will wrap items from right to left
+  instead of left to right.
 */
 
 

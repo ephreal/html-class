@@ -1,0 +1,32 @@
+/* Turn the body into a flexbox */
+body {
+  background-color: #252525;
+  display: flex;
+  align-items: flex-start;
+}
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 100px;
+}
+
+/* Set all grow classes to grow differently */
+.shrink1 {
+  flex-shrink: 1;
+}
+
+.shrink2 {
+  flex-shrink: 2;
+}
+
+.shrink3 {
+  flex-shrink: 3;
+}
+
+.shrink4 {
+  flex-shrink: 4;
+}

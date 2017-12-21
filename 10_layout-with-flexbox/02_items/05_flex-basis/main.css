@@ -1,0 +1,30 @@
+/*
+  Flex-basis is used to set the initial size of the flexbox items. It is
+  used in conjunction with flex-shrink and flex-grow to give a starting
+  point to shrink or grow off of. If flex-basis: auto is used, it gets
+  it's starting values from the width and heigh assigned to the selected
+  item.
+*/
+
+div {
+  margin: 1rem;
+  background-color: yellow;
+  border: 2px green;
+  flex-basis: 400px;
+  height: 400px;
+}
+
+body {
+  display: flex;
+  background-color: blue;
+}
+
+.flex1 {
+  flex-shrink: 1;
+  flex-grow: 2;
+}
+
+.flex2 {
+  flex-shrink: 2;
+  flex-grow: 3;
+}

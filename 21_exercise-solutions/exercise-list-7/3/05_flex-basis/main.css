@@ -1,0 +1,33 @@
+/* Turn the body into a flexbox */
+body {
+  background-color: #252525;
+  display: flex;
+  align-items: flex-start;
+}
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 100px;
+  /* Set 100px to be the basis of the divs */
+  flex-basis: auto;
+}
+
+.changable1 {
+  flex-grow: 1;
+}
+
+.changable2 {
+  flex-grow: 1;
+}
+
+.changable3 {
+  flex-grow: 1;
+}
+
+.changable4 {
+  flex-grow: 1;
+}

@@ -1,0 +1,31 @@
+/*
+  Flex-shrink in the counterpart of flex-grow. It allows the items
+  to shrink when necessary. Like flex-grow, the values given to
+  it must be integers with negative values acting like a 0. The
+  greater the number, the faster it will shrink in relation to the
+  other items around it.
+
+  In the example below, as the screen shrinks, the middle div will
+  shrink twice as fast as the divs on the side.
+*/
+
+div {
+  margin: 1rem;
+  width: 400px;
+  height: 200px;
+  background-color: green;
+  border: 2px solid yellow;
+}
+
+body {
+  background-color: #234874;
+  display: flex;
+}
+
+.shrink1 {
+  flex-shrink: 1;
+}
+
+.shrink2 {
+  flex-shrink: 2;
+}

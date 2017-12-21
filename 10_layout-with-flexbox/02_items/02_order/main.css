@@ -1,0 +1,30 @@
+/*
+  Order provides a way of changing the order in which items are
+  placed in the container. The order can be any whole number,
+  positive or negative. The default value assigned to all
+  items is 0. When the order is the same value as another, it
+  defaults to how it appears in the html. Play around with the
+  following code to get an idea of how this works.
+*/
+
+div {
+  margin: 1rem;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-color: blue;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.order1 {
+  order: -1;
+}
+
+.order2 {
+  order: 2;
+}

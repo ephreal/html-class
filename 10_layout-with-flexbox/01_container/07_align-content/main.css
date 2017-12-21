@@ -1,0 +1,38 @@
+/*
+  Align-content is used to align ALL of the content at the same time.
+  At first look, this would appear to do the same as align-items, but
+  the way it moves the content is different. Align-content moves the
+  content together without introducing any additional changes. For
+  example, with multiple lines and using align-items, you will end up
+  with a large space between the wrapped items. With align-content,
+  the large space is gone and items are spaced with their margins.
+
+  See below for an example.
+*/
+
+div {
+  background-color: gray;
+  border: 2px solid red;
+  margin: 1rem;
+}
+
+body {
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+
+  /*align-items: center;*/
+  align-content: center;
+
+  /*align-items: flex-start;*/
+  /*align-content: flex-start:*/
+
+  /*align-items: flex-end;*/
+  /*align-content: flex-end;*/
+
+  /*align-items: stretch;*/
+  /*align-content: stretch;*/
+
+  /*align-content: space-between;*/
+  /*align-content: space-around;*/
+}

@@ -1,0 +1,17 @@
+/* Create a flex container out of body */
+body {
+  background-color: #252525;
+  display: flex;
+  /* wrap the divs around and have the row-reversed */
+  flex-flow: row-reverse wrap;
+}
+
+/* add a little div formatting for fun */
+
+div {
+  margin: 1rem;
+  text-align: center;
+  background-color: green;
+  border: 2px solid yellow;
+  height: 100px;
+}

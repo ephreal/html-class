@@ -1,0 +1,33 @@
+/*
+  Flex-direction controlls how flex lays out the flex items inside the
+  container. It can take 4 values: row, row-reverse, column, column-reverse.
+
+  Flex-direction: row; is the default setting when a flex container is made.
+  This can easily be changed, although most often row is going to be used.
+
+  Flex has two different axis: Primary axis, which is parallel to the flex
+  direction value, and cross axis, which is perpendicular to the flex
+  direction value. This becomes important when working with some of the
+  other flex properties.
+
+  flex-direction: row = horizontal axis is primary.
+  flex-direction: column = vertical axis is primary.
+*/
+
+/* Uncomment the different flex directions to see the difference */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column;*/
+  /*flex-direction: column-reverse;*/
+}
+
+div {
+  margin: 2rem;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: 2px solid red;
+  text-align: center;
+}

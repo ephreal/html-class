@@ -1,0 +1,22 @@
+/*
+  Flex-flow is a shorthand property for setting flex-direction and
+  flex-wrap at the same time.
+
+  flex-flow: <flex-direction> <flex-wrap>;
+
+  See below for an example.
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: red;
+  margin: 1rem;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
