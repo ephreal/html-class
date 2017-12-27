@@ -1,0 +1,5 @@
+1) For each of the exercise pages in Exercise-Pages/exercise-page-8, do the following:
+  Open the page
+  Look at the content between the body tage
+  Write the appropriate css with media-queries to make the content true
+  put your media-queries in separate style sheets and have the media query determined by a link tag in your html
